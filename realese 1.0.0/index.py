@@ -31,7 +31,7 @@ class InstaBot():
 bot = InstaBot()
 bot.enter_link("https://www.instagram.com/")
 time.sleep(20)
-bot.enter_link("https://www.instagram.com/marvilak/")
+bot.enter_link("#Instagram User")
 time.sleep(3)
 links_photos = bot.get_photos_links()
 
